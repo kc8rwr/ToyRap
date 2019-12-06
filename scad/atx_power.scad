@@ -67,4 +67,4 @@ module supply(){
   translate([115, 0.5, 20]) rotate([90, 0, 0]) switch();
 }  
 
-supply();
+scale([1/3, 1/3, 1/3]) supply();
