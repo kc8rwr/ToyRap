@@ -31,4 +31,4 @@ module fan(screw_holes = false){
   }
 }
 
-fan(true);
+fan(screw_holes = false);

@@ -35,4 +35,4 @@ module lcd_box(name=" Hello", name_size=7, sub_name="      Name Me!", sub_name_s
   }
 }
 
-lcd_box(name="", sub_name_size=6, sub_name=" DollRap");
+lcd_box(name="", sub_name_size=6, sub_name="  ToyRap");

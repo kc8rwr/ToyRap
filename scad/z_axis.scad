@@ -94,6 +94,6 @@ module left_z_bracket(supports = false){
   }
 }
 
-translate([-1, 0, 0]) left_z_bracket(true);
-//translate([1, 0, 0]) right_z_bracket(false);
+translate([-1, 0, 0]) left_z_bracket(false);
+translate([1, 0, 0]) right_z_bracket(false);
 

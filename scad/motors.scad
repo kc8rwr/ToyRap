@@ -73,7 +73,6 @@ module z_motor(texture_sides=true){
   }
 }
 
-scale([1/3, 1/3, 1/3]) xy_motor();
-
-//  translate([0, 0, 2.5+(nut_width()/2)]) rotate([90, 0, 0]) cylinder(d=screw_diameter(), 8);
-//}
+//scale([1/3, 1/3, 1/3]) xy_motor();
+//scale([1/3, 1/3, 1/3]) extruder_motor();
+z_motor();

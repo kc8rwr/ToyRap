@@ -87,4 +87,5 @@ module z_motor_bracket(isLeft = false){
   }
 }
 
-z_motor_bracket(false);
+translate([-30, 0, 0]) z_motor_bracket(isLeft =true);
+translate([15, 0, 0]) z_motor_bracket(isLeft = false);
