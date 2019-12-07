@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>ToyRap BoM</title>
+  </head>
+  <body>
+    <h1>ToyRap Bill of Materials</h1>
+    
+    <h2>Printed</h2>
+
+    <table border=1>
+      <tr><th colspan=3>Y-axis / Bed</th></tr>
+      <tr><th>Part STL/3MF</th><th>Source .scad</th><th>Qty</th></tr>
+      <tr><td>y_rail_bracket_left</td><td>y_rail_brackets</td><td>2</td></tr>
+      <tr><td>y_rail_bracket_right</td><td>y_rail_brackets</td><td>2</td></tr>
+      <tr><td>xy_motor</td><td>motors</td><td>1</td></tr>
+      <tr><td>y_motor_mount_(glue/screw*)_on</td><td>y_motor_mount</td><td>1</td></tr>
+      <tr><td>y_idler</td><td>y_idler</td><td>1</td></tr>
+      <tr><td>pulley_half</td><td>pulleys</td><td>2</td></tr>
+      <tr><td>y_carriage</td><td>y_carriage</td><td>1</td></tr>
+      <tr><td>bed_heater</td><td>bed_heater</td><td>1</td></tr>
+    </table>
+    <br/>
+    <table border=1>
+      <tr><th colspan=3>Frame</th></tr>
+      <tr><th>Part STL/3MF</th><th>Source .scad</th><th>Qty</th></tr>
+      <tr><td>bracket</td><td>brackets</td><td>3</td></tr>
+      <tr><td>atx_power</td><td>atx_power</td><td>1</td></tr>
+    </table>
+    <br/>
+    <table border=1>
+      <tr><th colspan=3>Extruder/X-carriage</th></tr>
+      <tr><th>Part STL/3MF</th><th>Source .scad</th><th>Qty</th></tr>
+      <tr><td>extruder_carriage_(un)supported**</td><td>extruder_carriage</td><td>1</td></tr>
+      <tr><td>extruder_motor</td><td>extruder_motor</td><td>1</td></tr>
+      <tr><td>wadish_big_gear</td><td>wadish_big_gear</td><td>1</td></tr>
+      <tr><td>hotend</td><td>hotend</td><td>1</td></tr>
+      <tr><td>nozzle</td><td>nozzle</td><td>1</td></tr>
+    </table>
+    <br/>
+    <table border=1>
+      <tr><th colspan=3>Z-axis</th></tr>
+      <tr><th>Part STL/3MF</th><th>Source .scad</th><th>Qty</th></tr>
+      <tr><td>z_motor</td><td>motors</td><td>2</td></tr>
+      <tr><td>z_motor_bracket_left</td><td>z_motor_brackets</td><td>1</td></tr>
+      <tr><td>z_motor_bracket_right</td><td>z_motor_brackets</td><td>1</td></tr>
+      <tr><td>z_top_bracket</td><td>z_top_brackets</td><td>2</td></tr>
+      <tr><td>z_bracket_left_(un**)supported</td><td>z_axis</td><td>1</td></tr>
+      <tr><td>z_bracket_right_(un**)supported</td><td>z_axis</td><td>1</td></tr>
+      <tr><td>pulley_half</td><td>pulleys</td><td>2</td></tr>
+      <tr><td>xy_motor</td><td>motors</td><td>1</td></tr>
+    </table>
+    <br/>
+    <table border=1>
+      <tr><th colspan=3>Finishing Touches</th></tr>
+      <tr><th>Part STL/3MF</th><th>Source .scad</th><th>Qty</th></tr>
+      <tr><td>spool_with_filament</td><td>spool</td><td>1</td></tr>
+      <tr><td>spool_side</td><td>spool</td><td>1</td></tr>
+      <tr><td>lcd_box</td><td>lcd_box***</td><td>1</td></tr>
+    </table>
+    <br/>
+    * - Some parts can be optionaly rendered as glue-on or screw-on versions. I used glue-on but if you prefer screw-on you will need additional bolts and hardware to attach them.<br/>
+    <br/>
+    ** - Some parts can be redered with optional supports. This can be useful with slicers that do not allow limiting supports to specific areas. Many printers will probably do fine without any supports so try w/o first.<br/>
+    <br/>
+    *** - The text "ToyRap" on the lcd box is editable within the OpenSCAD source file.  If you are familiar with OpenSCAD you may wish to edit and render this one from scratch even if using pre-rendered 3MF or STL files for everything else.<br/>
+    <hr/>
+    <h2>Vitamins</h2>
+    <table border=1>
+      <tr><th>Part</th><th>Qty</th><th>Location</th></tr>
+      <tr><td>3mm (1/8") rod x 115mm</td><td>2</td><td>X-axis</td></tr>
+      <tr><td>3mm (1/8")rod x 145mm</td><td>1</td><td>Y-axis</td></tr>
+      <tr><td>3mm (1/8") rod x 100mm</td><td>1</td><td>Y-axis</td></tr>
+      <tr><td>3mm (1/8") rod x 40mm</td><td>2</td><td>Z-axis</td></tr>
+      <tr><td>3mm (1/8") rod x 120mm</td><td>2</td><td>Z-axis</td></tr>
+      <tr><td>M3x25 hex socket cap bolt</td><td>1</td><td>extruder</tr>
+      <tr><td>M3x18 hex socket cap bolt</td><td>5</td><td>Y_idler and PSU</td></tr>
+      <tr><td>M3x15 hex socket cap bolt</td><td>3</td><td>spool</td></tr>
+      <tr><td>M3x13 hex socket cap bolt</td><td>25</td><td>various</td></tr>
+      <tr><td>M3 grub</td><td>15</td><td>2 per rod</td></tr>
+      <tr><td>M3 nut</td><td>26</td><td>various</td></tr>
+      <tr><td>M3 nyloc nut</td><td>24</td><td>various</td></tr>
+      <tr><td>M3 plain washer</td><td>28</td><td>various</td></tr>
+      <tr><td>M3 star washer</td><td>11</td><td>various</td></tr>
+      <tr><td colspan=3>Springs M3 opening, ~3mm compressed for bed</td></tr>
+      <tr><td colspan=3>Sheets-see pdfs for base, carriage and stays</td></tr> 
+    </table>
+    <p>&nbsp;&nbsp;&nbsp;Quantities of small hardware such as bolts, nuts and washers may not be exact. These will be re-counted as assembly directions are written. For now if building it might be a good idea to start with a few extra.</p>
+  </body>
+</html>

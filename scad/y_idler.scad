@@ -17,7 +17,7 @@ module web(){
   }
 }
 
-module y_pulley(screw_holes = false){
+module y_idler(screw_holes = false){
   difference(){
     union(){
       cube([14, 22, 2]);
@@ -34,4 +34,4 @@ module y_pulley(screw_holes = false){
   }
 }
 
-y_pulley();
+y_idler();
