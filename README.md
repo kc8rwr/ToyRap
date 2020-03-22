@@ -10,6 +10,7 @@ Pre-rendered stl and 3mf files are available at [Thingiverse](https://www.thingi
 
 [Why](http://unforgettability.net/content/page/blog_190214/) did I make this?
 
-Directions coming soon (I hope)
+Directions coming soon (I hope)<br/>
+Meanwhile see bom.html for a bill of materials, both printed and vitamins.
 
 Based on the [Mendel90](https://reprap.org/wiki/Mendel90). Thank you [Nophead](http://hydraraptor.blogspot.com/)!
